@@ -22,15 +22,12 @@ vendor/firmware/tfa98xx.cnt
 vendor/firmware/voice_amodel.bin
 
 # Camera - from lavender V10.3.6.0.PFGMIXM
-vendor/lib/hw/camera.sdm660.so|50e671432994ec9085810e5fa9c9c6619262bc19
-vendor/lib/libFaceGrade.so|ab36b265668f77a613719e1b8cedf0b1a0219fa5
 vendor/lib/libMegviiFacepp-0.5.2.so|640676bd292c78197ea963aa7875153fab44a383
 vendor/lib/libSNPE.so|66f23aae6d30b09121f06635c749d6ae47543359
 vendor/lib/libSonyIMX376C3RmscLibrary.so|b3138daf9b93c645b89b67d28c3f6fadfbbfdb42
 vendor/lib/libSonyIMX376KRmscLibrary.so|2f7792d51bf476352590b8643e43762f68cadeef
 vendor/lib/libVDClearShot.so|fe429e3ddac8f989d2c754b6a3da36ebe8b85060
 vendor/lib/libVDSuperPhotoAPI.so|913cf65475d0329b321c912d24c98abc428d5e55
-vendor/lib/libXMFD_AgeGender.so|88654968974e4aba6c7b74346eb69ff543997047
 vendor/lib/lib_lowlight.so|d67d13627dcec095c58d8d23a392a2146fea34a0
 vendor/lib/libc++_shared.so|54a61595d6fee176af9aa65ff044746ed1446233
 vendor/lib/libcamera_scene.so|980ef8ec8a4b0e38cb9a6d7f84575e19fa00601d
@@ -44,8 +41,6 @@ vendor/lib/libmegface.so|5c57bccfd37a84f3990e6982c193b018a20d5d39
 vendor/lib/libmibokeh_660.so|46afb40acdafe11cffba2ab77087d99cf864bf35
 vendor/lib/libmm-qcamera.so|f953ef7ce5a3b30f0fa69d6ffde1149272d58793
 vendor/lib/libmmjpeg.so|152b14e209e381deb1f58a4c734678bd11e6069a
-vendor/lib/libmmjpeg_interface.so|fcbd9abfc8beea3b9be05f331af82939f37c0691
-vendor/lib/libmmlib2d_interface.so|658fba4f9a81f024cf68874488d6f3f7144323ff
 vendor/lib/libmmqjpeg_codec.so|f05531bc53f16d8bfe5e7cf3fa00fd5b8b40fde2
 vendor/lib/libmmqjpegdma.so|98e8a82e71c3bd630ff2ab231f19571967231f59
 vendor/lib/libmpbase.so|25b49173aac8551cdebd4fbfccdbcb09e0b8469d
@@ -69,7 +64,6 @@ vendor/lib/libactuator_lavender_s5kgm1_ofilm_i_dw9800.so|bcec656c49d3955849c0c14
 vendor/lib/libactuator_lavender_s5kgm1_sunny_ii_dw9800.so|c7d8356d62bbf33e0d0df49173fe627b5be16a07
 
 # Camera-arcsoft - from lavender V10.3.6.0.PFGMIXM
-vendor/lib/libarcsoft_beautyshot.so|c2748fb0fb0680427ffba2157288a97c140094b5
 vendor/lib/libarcsoft_dualcam_refocus.so|770936b85e0c34e065ae275e3e6e33ca77793cd2
 vendor/lib/libarcsoft_high_dynamic_range.so|1333e69886aca0dcdc34ddbd8b76ea6ee6511eea
 vendor/lib/libarcsoft_supernight.so|42212f2a3d1ba478129ef905032eb9b71776b077
@@ -870,7 +864,6 @@ vendor/lib/libmmcamera_hvx_add_constant.so|b1ac370b3875054381abf79934a4475a37baa
 vendor/lib/libmmcamera_hvx_grid_sum.so|d4a4e355ace886261ff7a6b71be8b753502efdfd
 vendor/lib/libmmcamera_imglib.so|ca3076b8c0f9267fd266756bb6040a46549dcc4b
 vendor/lib/libmmcamera_imglib_faceproc_adspstub.so|2284fb7d88f89183c13352520a247e78126b68ce
-vendor/lib/libmmcamera_interface.so|431d8c65d9b51a51ab10dc10e2cf51ce071fce0c
 vendor/lib/libmmcamera_isp_abf48.so|31fa42f876d45928aca53255045f3c61527b2d72
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so|bfa8d403e3156d71c1cc463e1f61aceffe8d5373
 vendor/lib/libmmcamera_isp_bf_stats47.so|5ab4ad3d21c83578ff209ba47f95056a8e661239
