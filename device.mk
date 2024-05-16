@@ -31,8 +31,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -68,9 +67,6 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_PACKAGES += \
     LavenderWifiOverlay
-
-# Sign key
--include vendor/lineage-priv/keys/keys.mk
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)

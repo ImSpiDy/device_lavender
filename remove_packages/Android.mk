@@ -76,7 +76,6 @@ LOCAL_OVERRIDES_PACKAGES := \
 	TurboPrebuilt \
 	TagGoogle \
 	talkback \
-	Updater \
 	Symphonica \
 	Gallery2 \
 	Music \
