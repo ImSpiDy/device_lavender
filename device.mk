@@ -67,5 +67,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     LavenderWifiOverlay
 
+# Sign key
+-include vendor/lineage-priv/keys/keys.mk
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
