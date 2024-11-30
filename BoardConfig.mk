@@ -32,7 +32,12 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init
 
 # Kernel
+TARGET_KERNEL_VERSION ?= 4.19
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
 TARGET_KERNEL_CONFIG := lavender_defconfig
+else ifeq ($(TARGET_KERNEL_VERSION),4.4)
+TARGET_KERNEL_CONFIG := lavender-perf_defconfig
+endif
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
