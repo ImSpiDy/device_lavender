@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-NAD_BUILD_TYPE := BLU-TEST
+NAD_BUILD_TYPE := NRG-Test
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
